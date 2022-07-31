@@ -1,9 +1,9 @@
 import './App.css';
 import React, {useState}  from 'react';
 import Navbar from './components/Navbar';
+import Home from './components/Home';
 import About from './components/About';
 import EdgeMenu from './components/EdgeMenu';
-import Experience from './components/Experience';
 
 function App() {
   const [darkTheme, setDarkTheme] = useState(false)
@@ -11,9 +11,9 @@ function App() {
   return (
     <div className={darkTheme ? 'dark' : ''}>
       <Navbar darkTheme={darkTheme} setDarkTheme={setDarkTheme} />
+      <Home />
       <About />
-      {/* <EdgeMenu /> */}
-      {/* <Experience /> */}
+      <EdgeMenu />
     </div>
   );
 }
