@@ -17,7 +17,7 @@ export default function Home() {
             <p className='font-medium xl:text-lg text-blue_30 dark:text-blue_90 py-5 w-full sm:w-4/5 lg:w-2/3'>I am a software engineering specializing in building (and occasionally designing) awesome digital experience. I design and code beautifully simple things, and I love what I do. Currently I am working in <span className='text-blue_10 dark:text-blue_50'>Accenture</span>.</p>
             
             {/* Resume Download button */}
-            <button type='button' className='py-4 md:py-6 block'>
+            <button type='button' className='py-4 pb-8 md:py-6 md:pb-6 block'>
               <a target='_blank' rel='noreferrer' href="https://drive.google.com/file/d/1yqYOgTB8W5QAN8B5FG0SwEs5fzVhYErY/view?usp=sharing" className='outline-btn'><i className="uil uil-file-download-alt"></i> resume()</a>
             </button>
           </div>

@@ -1,10 +1,23 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 export default function Navbar({ darkTheme, setDarkTheme }) {
+  useEffect(() => {
+
+    // Function to stop scrolling when side bar menu is open in small screens
+    const toggleSideMenu = document.querySelector('#toggle-side-menu');
+    toggleSideMenu.addEventListener("click", function () {
+      if (toggleSideMenu.checked) {
+        document.body.style.overflow = "hidden";
+      }
+      else {
+        document.body.style.overflow = "auto";
+      }
+    })
+  })
 
   return (
     <header className='bg-blue_90 dark:bg-blue_10 dark:text-white duration-500'>
-      
+
       {/* Navbar Container */}
       <nav className='flex items-center justify-between px-4 sm:px-7 md:px-14 lg:px-8 py-7 md:py-0 lg:py-3 w-full'>
 
