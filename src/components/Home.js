@@ -7,7 +7,7 @@ export default function Home() {
       <section className='dark:bg-blue_10 dark:text-white duration-1000 px-4 sm:px-7 md:px-14 lg:px-32 xl:px-40 py-4 md:py-8 xl:py-12'>
 
         {/* Home container */}
-        <div className='grid col-span-12 sm:grid-cols-12 items-center mt-24 lg:mt-28'>
+        <div className='grid sm:grid-cols-12 items-center mt-24 lg:mt-28'>
           <div className='col-span-7'>
             
             {/* Home Content */}
@@ -18,7 +18,7 @@ export default function Home() {
             
             {/* Resume Download button */}
             <button type='button' className='py-4 pb-8 md:py-6 md:pb-6 block'>
-              <a target='_blank' rel='noreferrer' href="https://drive.google.com/file/d/1yqYOgTB8W5QAN8B5FG0SwEs5fzVhYErY/view?usp=sharing" className='outline-btn'><i className="uil uil-file-download-alt"></i> resume()</a>
+              <a target='_blank' rel='noreferrer' href="https://drive.google.com/file/d/1yqYOgTB8W5QAN8B5FG0SwEs5fzVhYErY/view?usp=sharing" className='outline-btn font-bold'><i className="uil uil-file-download-alt"></i> resume()</a>
             </button>
           </div>
 

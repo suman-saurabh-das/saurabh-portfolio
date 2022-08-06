@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About() {
   return (
-    <main>
+    <main id='about-section'>
 
       {/* About Container */}
       <section className='dark:bg-blue_10 dark:text-white duration-500 px-4 sm:px-7 md:px-14 lg:px-32 xl:px-40 py-4 md:py-8 xl:py-12'>
@@ -43,7 +43,7 @@ export default function About() {
           {/* Image container */}
           <div className='col-span-12 md:col-span-5 order-1 md:order-3 pb-5'>
             <div className='flex justify-center items-center'>
-              <div className='border-2 border-blue_10 dark:border-blue_50 h-60 sm:h-64 md:h-56 lg:h-72 aspect-square box-border shadow-sm shadow-blue_10 dark:shadow-blue_50 relative'>
+              <div className='border-2 border-blue_10 dark:border-blue_50 h-60 sm:h-64 md:h-56 lg:h-72 aspect-square box-border relative'>
                 <img className='absolute object-cover w-full -top-2 -left-2 border-2 border-blue_10 dark:border-blue_50' src="https://t3.ftcdn.net/jpg/03/91/19/22/360_F_391192211_2w5pQpFV1aozYQhcIw3FqA35vuTxJKrB.jpg" alt="" />
               </div>
             </div>

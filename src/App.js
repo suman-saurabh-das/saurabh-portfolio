@@ -5,6 +5,7 @@ import EdgeMenu from './components/EdgeMenu';
 import Home from './components/Home';
 import About from './components/About';
 import Experience from './components/Experience';
+import Work from './components/Work';
 
 function App() {
   const [darkTheme, setDarkTheme] = useState(false)
@@ -16,6 +17,7 @@ function App() {
       <Home />
       <About />
       <Experience />
+      <Work />
     </div>
   );
 }

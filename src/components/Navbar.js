@@ -56,13 +56,13 @@ export default function Navbar({ darkTheme, setDarkTheme }) {
 
             {/* Navigation Menu Links */}
             <li className='md:px-2 md:py-3 lg:px-4 lg:py-8'>
-              <a className='hover:text-blue_30 dark:hover:text-blue_60' href="/">&lt;About Me/&gt;</a>
+              <a className='hover:text-blue_30 dark:hover:text-blue_60' href="#about-section">&lt;About Me/&gt;</a>
             </li>
             <li className='md:px-2 md:py-3 lg:px-4 lg:py-8'>
-              <a className='hover:text-blue_30 dark:hover:text-blue_60' href="/">&lt;Experience/&gt;</a>
+              <a className='hover:text-blue_30 dark:hover:text-blue_60' href="#experience-section">&lt;Experience/&gt;</a>
             </li>
             <li className='md:px-2 md:py-3 lg:px-4 lg:py-8'>
-              <a className='hover:text-blue_30 dark:hover:text-blue_60' href="/">&lt;Work/&gt;</a>
+              <a className='hover:text-blue_30 dark:hover:text-blue_60' href="#work-section">&lt;Work/&gt;</a>
             </li>
             <li className='md:px-2 md:py-3 lg:px-4 lg:py-8'>
               <a className='hover:text-blue_30 dark:hover:text-blue_60' href="/">&lt;Contact/&gt;</a>

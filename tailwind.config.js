@@ -19,7 +19,7 @@ module.exports = {
         // #002933
         gradient_blue_40: '#3ec0d5',
         gradient_blue_60: '#1a8ebf',
-      }
+      },
     },
   },
   plugins: [],

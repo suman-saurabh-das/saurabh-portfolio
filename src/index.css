@@ -8,11 +8,24 @@
         border-2
         border-black
         dark:border-white 
-        hover:border-blue_30 
+        hover:border-blue_20 
         dark:hover:border-blue_60
         py-2 px-4
         rounded-md
-        hover:text-blue_30 
+        hover:text-blue_20 
         dark:hover:text-blue_60
+    }
+    .solid-btn{
+        @apply
+        border-2
+        bg-blue_20
+        dark:bg-blue_60
+        hover:border-blue_20 
+        dark:hover:border-blue_60
+        py-2 px-4
+        rounded-md
+        text-blue_90
+        dark:text-blue_10
+        outline-none
     }
 }
