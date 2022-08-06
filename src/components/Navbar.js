@@ -2,6 +2,19 @@ import React, { useEffect } from 'react'
 
 export default function Navbar({ darkTheme, setDarkTheme }) {
   useEffect(() => {
+    // Function to hide/show navbar on scroll
+    const navbar = document.querySelector('#navbar');
+    let lastScrollTop = 0;
+    window.addEventListener('scroll', function() {
+      let scrollTop = this.window.pageYOffset || this.document.documentElement.scrollTop;
+      if(scrollTop > lastScrollTop){
+        navbar.style.top = '-8rem';
+      }
+      else{
+        navbar.style.top = '0';
+      }
+      lastScrollTop = scrollTop;
+    })
 
     // Function to stop scrolling when side bar menu is open in small screens
     const toggleSideMenu = document.querySelector('#toggle-side-menu');
@@ -16,7 +29,7 @@ export default function Navbar({ darkTheme, setDarkTheme }) {
   })
 
   return (
-    <header className='bg-blue_90 dark:bg-blue_10 dark:text-white duration-500'>
+    <header id='navbar' className='bg-blue_90 dark:bg-blue_10 dark:text-white duration-500 fixed w-full z-20'>
 
       {/* Navbar Container */}
       <nav className='flex items-center justify-between px-4 sm:px-7 md:px-14 lg:px-8 py-7 md:py-0 lg:py-3 w-full'>
