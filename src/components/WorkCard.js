@@ -20,7 +20,7 @@ export default function WorkCard({title, content, link, bgImageLink}) {
                             {content}
                         </p>
                         <a target='_blank' rel='noreferrer' className='outline-btn hover:solid-btn border-blue_20 dark:border-blue_60 px-3 py-1 hover:px-3 hover:py-1' href={link}>
-                            Visit Site <i class="uil uil-angle-right"></i>
+                            Visit Site <i className="uil uil-angle-right"></i>
                         </a>
                     </div>
                 </div>

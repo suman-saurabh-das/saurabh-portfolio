@@ -37,7 +37,7 @@ export default function Navbar({ darkTheme, setDarkTheme }) {
         {/* Navbar logo (for light & dark mode) */}
         <div>
           <a href="/">
-            <img className='w-8 sm:w-10 lg:w-12 h-8 sm:h-10 lg:h-12'
+            <img className='w-8 sm:w-10 lg:w-12 h-8 sm:h-10 lg:h-12 hover:scale-110'
               src={darkTheme ? 'https://drive.google.com/uc?export=view&id=1chxlRVlZc3jZ0nc1Ac86xhh--qqxp3fv' : 'https://drive.google.com/uc?export=view&id=1qnwSfFJ2L6i1QnAUdOSiHfqH6vPq3AP0'} alt="Logo" />
           </a>
         </div>
@@ -65,7 +65,7 @@ export default function Navbar({ darkTheme, setDarkTheme }) {
               <a className='hover:text-blue_30 dark:hover:text-blue_60' href="#work-section">&lt;Work/&gt;</a>
             </li>
             <li className='md:px-2 md:py-3 lg:px-4 lg:py-8'>
-              <a className='hover:text-blue_30 dark:hover:text-blue_60' href="/">&lt;Contact/&gt;</a>
+              <a className='hover:text-blue_30 dark:hover:text-blue_60' href="#contact-section">&lt;Contact/&gt;</a>
             </li>
 
             {/* Light/Dark mode button */}
