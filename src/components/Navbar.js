@@ -77,7 +77,7 @@ export default function Navbar({ darkTheme, setDarkTheme }) {
             </li>
 
             {/* Light/Dark mode button */}
-            <button type='button' onClick={() => setDarkTheme(!darkTheme)} className='md:px-1 lg:px-2 md:py-8 block'>
+            <button type='button' onClick={() => setDarkTheme(!darkTheme)} className='list-item md:px-1 lg:px-2 md:py-8'>
               {darkTheme ? <span className="uil uil-brightness outline-btn"> light()</span> : <span className="uil uil-moon outline-btn"> dark()</span>}
             </button>
           </ul>

@@ -20,7 +20,7 @@ export default function Contact() {
                     <div className='col-span-12 md:col-span-8 order-2 md:w-11/12'>
                         <div className='flex flex-col justify-center items-center font-medium xl:text-lg text-blue_30 dark:text-blue_90'>
                             <p className='text-center pb-10 md:py-10'>
-                                Whether you have a project in mind that you want to get built or just want to say hi, I’ll try my best to get back to you! Let me know if you are interested in working together. We should queue up a time to chat & I’ll buy the coffee <i className="fa-solid fa-mug-hot"></i>.
+                                Whether you have a project in mind that you want to get built or just want to say hi, I’ll try my best to get back to you! Let me know if you are interested in working together. We should queue up a time to chat & I’ll buy the coffee <i className="fa-solid fa-mug-hot"></i>
                             </p>
                             <button className='outline-btn hover:solid-btn border-blue_30 dark:border-blue_90 w-3/5 sm:w-2/5'>
                                 <a href="mailto:dsumansaurabh@gmail.com">Let's do this <i className="fa-solid fa-face-laugh-wink"></i></a>

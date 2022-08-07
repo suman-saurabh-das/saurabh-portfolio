@@ -7,6 +7,7 @@ import About from './components/About';
 import Experience from './components/Experience';
 import Work from './components/Work';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   const [darkTheme, setDarkTheme] = useState(false)
@@ -20,6 +21,7 @@ function App() {
       <Experience />
       <Work />
       <Contact />
+      <Footer />
     </div>
   );
 }
