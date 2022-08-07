@@ -26,7 +26,7 @@ export default function Footer() {
                 </ul>
 
                 <div className='flex flex-col justify-center items-center text-blue_20 dark:text-blue_90'>
-                    <p className='font-medium py-3'>Handcrafted by Me © twenty'22</p>
+                    <p className='font-medium py-3'><a href="https://github.com/suman-saurabh-das/saurabh-portfolio">Handcrafted by Me © twenty'22</a></p>
                     <p className='text-[12px]'>Made with <span className='text-2xl'><i class="text-blue_50 fa-brands fa-react"></i></span>&ensp;&&ensp;
                         <span className='relative -top-1'>
                             <svg className='inline-block' width="2rem" height="2rem" viewBox="0 0 1000 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
