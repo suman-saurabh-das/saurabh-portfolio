@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/saurabh-portfolio/static/css/main.ebd55a66.css",
+    "main.js": "/saurabh-portfolio/static/js/main.c012fc6c.js",
+    "static/media/development.gif": "/saurabh-portfolio/static/media/development.8ffd71ec88b3ecbf001a.gif",
+    "static/media/contact.gif": "/saurabh-portfolio/static/media/contact.305b3bbe933064e1be1a.gif",
+    "static/media/coding.gif": "/saurabh-portfolio/static/media/coding.7dcba28e5dee4bf603bc.gif",
+    "index.html": "/saurabh-portfolio/index.html",
+    "main.ebd55a66.css.map": "/saurabh-portfolio/static/css/main.ebd55a66.css.map",
+    "main.c012fc6c.js.map": "/saurabh-portfolio/static/js/main.c012fc6c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ebd55a66.css",
+    "static/js/main.c012fc6c.js"
+  ]
+}
