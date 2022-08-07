@@ -26,6 +26,14 @@ export default function Navbar({ darkTheme, setDarkTheme }) {
         document.body.style.overflow = "auto";
       }
     })
+
+    const listItemsArr = document.querySelectorAll('.list-item');
+    for(let i=0; i<listItemsArr.length; i++){
+      listItemsArr[i].addEventListener('click', function() {
+        toggleSideMenu.checked = false;
+        document.body.style.overflow = "auto";
+      })
+    }
   })
 
   return (
@@ -49,23 +57,23 @@ export default function Navbar({ darkTheme, setDarkTheme }) {
           <input type="checkbox" id='toggle-side-menu' className='absolute h-7 w-7 cursor-pointer opacity-0 md:hidden z-50 peer' />
 
           {/* Hamburger icon */}
-          <div className='z-40'><i className="uil uil-bars text-2xl md:hidden z-40"></i></div>
+          <div id='ham-icon' className='z-40'><i className="uil uil-bars text-2xl md:hidden z-40"></i></div>
 
           {/* Navigation Menu Container */}
           <ul className='fixed top-0 -right-2/3 peer-checked:right-0 duration-500 pt-20 md:pt-0 pb-32 md:pb-0 bg-blue_90 w-2/3 md:w-full h-full dark:bg-blue_10 md:static font-semibold flex flex-col md:flex-row items-center justify-around md:justify-center md:text-sm lg:text-base z-30'>
 
             {/* Navigation Menu Links */}
             <li className='md:px-2 md:py-3 lg:px-4 lg:py-8'>
-              <a className='hover:text-blue_30 dark:hover:text-blue_60' href="#about-section">&lt;About Me/&gt;</a>
+              <a className='list-item hover:text-blue_30 dark:hover:text-blue_60' href="#about-section">&lt;About Me/&gt;</a>
             </li>
             <li className='md:px-2 md:py-3 lg:px-4 lg:py-8'>
-              <a className='hover:text-blue_30 dark:hover:text-blue_60' href="#experience-section">&lt;Experience/&gt;</a>
+              <a className='list-item hover:text-blue_30 dark:hover:text-blue_60' href="#experience-section">&lt;Experience/&gt;</a>
             </li>
             <li className='md:px-2 md:py-3 lg:px-4 lg:py-8'>
-              <a className='hover:text-blue_30 dark:hover:text-blue_60' href="#work-section">&lt;Work/&gt;</a>
+              <a className='list-item hover:text-blue_30 dark:hover:text-blue_60' href="#work-section">&lt;Work/&gt;</a>
             </li>
             <li className='md:px-2 md:py-3 lg:px-4 lg:py-8'>
-              <a className='hover:text-blue_30 dark:hover:text-blue_60' href="#contact-section">&lt;Contact/&gt;</a>
+              <a className='list-item hover:text-blue_30 dark:hover:text-blue_60' href="#contact-section">&lt;Contact/&gt;</a>
             </li>
 
             {/* Light/Dark mode button */}
