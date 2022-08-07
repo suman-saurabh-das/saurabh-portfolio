@@ -44,7 +44,7 @@ export default function About() {
           <div className='col-span-12 md:col-span-5 order-1 md:order-3 pb-5'>
             <div className='flex justify-center items-center'>
               <div className='border-2 border-blue_10 dark:border-blue_50 h-60 sm:h-64 md:h-56 lg:h-72 aspect-square box-border relative rounded-lg'>
-                <img className='absolute object-cover w-full -top-2 -left-2 border-2 border-blue_10 dark:border-blue_50 rounded-lg' src="https://t3.ftcdn.net/jpg/03/91/19/22/360_F_391192211_2w5pQpFV1aozYQhcIw3FqA35vuTxJKrB.jpg" alt="" />
+                <img className='absolute object-cover w-full -top-2 -left-2 border-2 border-blue_10 dark:border-blue_50 rounded-lg' src="https://drive.google.com/uc?export=view&id=1K_kVFn2P2j9CvlmEyRi1T7fzShlUlB2Y" alt="my-profile-pic" />
               </div>
             </div>
           </div>
